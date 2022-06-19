@@ -20,18 +20,31 @@ nav{
     display: flex;
     gap: 56rem;
 }
-@media only screen and (min-width:220px) and (max-width:780px) {
+@media only screen and (min-width:220px) and (max-width:440px) {
+    nav{
+        display: flex;
+        gap: 3rem;
+    }
+}
+@media only screen and (min-width:450px) and (max-width:750px) {
     nav{
         display: flex;
         gap: 8rem;
     }
 }
-@media only screen and (min-width:790px) and (max-width:1080px) {
+@media only screen and (min-width:760px) and (max-width:1080px) {
     nav{
         display: flex;
         gap: 25rem;
     }
 }
+@media only screen and (min-width:1090px) and (max-width:1200px) {
+    nav{
+        display: flex;
+        gap: 42rem;
+    }
+}
+
 
 .left-nav{
     padding: 40px;
@@ -75,6 +88,7 @@ nav{
 h2{
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
+    
 } 
 .left-hero button{
     padding: 10px;
@@ -90,9 +104,12 @@ h2{
     display: flex;
     flex: 1;
 }
+.img-right-hero{
+    width: 500px;
+}
 @media only screen and (min-width:280px) and (max-width:720px) {
-    .right-hero img{
-        width: 200px;
+    .img-right-hero{
+        width: 300px;
         height: 120px;
     }
 }
@@ -167,6 +184,7 @@ h2{
 }
 .text-con h2{
     color: hsl(208, 11%, 55%);
+    text-align: center;
 }
 .image-con{
     background-color: white;
@@ -200,15 +218,20 @@ footer{
 
     }
     .absolute{
-        padding: 5 300px;
-        width: 50vw;
-        left: 10%;
+        padding-right: 50px;
+        width: 40vw;
     }
     .ready{
         padding: 5px 200px;
     }
-    .first-con{
-        padding: 1px;
+    #first-con{
+        padding-top: 70px;
+    }
+    #second-con{
+        padding: 1px 5px;
+    }
+    #third-con{
+        padding: 5px 5px;
     }
 
 
