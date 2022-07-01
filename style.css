@@ -38,6 +38,11 @@ nav{
     font-size: small;
     font-weight: 700;
     cursor: pointer;
+    transition: 1s ease;
+}
+.right-nav button:hover{
+    background-color: var(--pink);
+
 }
 @media only screen and (min-width:320px) and (max-width:1080px){
     .try{
@@ -103,11 +108,15 @@ h2{
     font-size: small;
     font-weight: 700;
     cursor: pointer;
+    transition: 2s;
+}
+.left-hero button:hover{
+    background-color: white;
 }
 .right-hero{
     display: flex;
     flex: 1;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 .img-right-hero{
     width: 500px;
@@ -265,6 +274,11 @@ footer{
 }
 .socials i{
     padding: 5px;
+    transition: 2s ease;
+}
+.socials i:hover{
+    color: var(--pink);
+    cursor: pointer;
 }
 .absolute{
     display: flex;
@@ -298,4 +312,8 @@ footer{
     padding: 12px;
     background-color: var(--pink);
     cursor: pointer;
+    transition: 2s ease;
+}
+.started:hover{
+    background-color: white;
 }
